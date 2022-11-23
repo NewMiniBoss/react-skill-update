@@ -1,10 +1,11 @@
-import './CampoTexto.css';
-const CampoTexto = () => {
+import './CampoTexto.css'
+const CampoTexto = (props) => {
+    const placeholderModificado = `${props.placeholder}...`
     return (
-        <form>
-            <label>Nome</label>
-            <input></input>
-        </form>
+        <div>
+            <label>{props.label}</label>
+            <input placeholder={placeholderModificado} />
+        </div>
     )
 }
 export default CampoTexto

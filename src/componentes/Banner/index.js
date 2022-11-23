@@ -1,9 +1,9 @@
 import './Banner.css'
 function Banner() {
     return (
-        <header className="banner">
+        <div className="banner">
             <img src="/img/banner.png" alt="banner principal da página do organo" />
-        </header>
+        </div>
     )
 }
 export default Banner
