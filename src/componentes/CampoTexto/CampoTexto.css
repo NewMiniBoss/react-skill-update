@@ -1,13 +1,13 @@
-div {
+.CampoTexto {
   margin: 24px 0;
 }
-div label {
+.CampoTexto label {
   color: #212121;
   display: block;
   margin-bottom: 8px;
   font-size: 28px;
 }
-div input {
+.CampoTexto input {
   background-color: #ffffff;
   color: #AFAFAF;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);

@@ -2,9 +2,9 @@ import './CampoTexto.css'
 const CampoTexto = (props) => {
     const placeholderModificado = `${props.placeholder}...`
     return (
-        <div>
+        <div className='CampoTexto'>
             <label>{props.label}</label>
-            <input placeholder={placeholderModificado} />
+            <input required={props.obrigatorio} placeholder={placeholderModificado} />
         </div>
     )
 }
